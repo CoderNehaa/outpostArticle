@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     <>
-      <div className='flex flex-col justify-between pt-10 md:flex-row'>
+      <div className='flex flex-col justify-between pt-5 md:flex-row md:pt-10'>
           <div className='flex items-center xl:justify-between'>
             <div> <img className='h-24 w-24 inline' src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/1200px-ChatGPT_logo.svg.png"/> </div>
             <div className='pl-4 tracking-wide'>
@@ -31,13 +31,13 @@ const About = () => {
         </div>
       </div>
 
-      <div className='py-4 md:py-10 text-justify tracking-wide'>
+      <div className='md:py-10 md:px-5 text-justify tracking-wide'>
         <div className='border-b-2 p-0'>
           <button className='mr-8 md:text-2xl pb-2' id='overview' onClick={() => handliClick('overview', 'aboutOpenAI')}> Overview </button>
           <button className='md:text-2xl pb-2' id='aboutOpenAI' onClick={() => handliClick('aboutOpenAI', 'overview')}> About Open AI </button>
         </div>
-        <p className='p-4 md:text-xl text-slate-600'> OpenAI is an artificial intelligence research laboratory consisting of a team of world-class researchers and engineers focused on creating and advancing artificial intelligence in a safe and beneficial way for humanity. It was found in December 2015 by several high-profile individuals in the tech industry, including Elon Musk, Sam Altman, Greg Brockman, and others. </p>
-        <p className='p-4 md:text-xl text-slate-600'> OpenAI is dedicated to advancing the field of artificial intelligence through research. </p>
+        <p className='py-4 text-lg md:text-2xl text-slate-600'> OpenAI is an artificial intelligence research laboratory consisting of a team of world-class researchers and engineers focused on creating and advancing artificial intelligence in a safe and beneficial way for humanity. It was found in December 2015 by several high-profile individuals in the tech industry, including Elon Musk, Sam Altman, Greg Brockman, and others. </p>
+        <p className='py-4 text-lg md:text-2xl text-slate-600'> OpenAI is dedicated to advancing the field of artificial intelligence through research. </p>
       </div>  
     </>
   )
