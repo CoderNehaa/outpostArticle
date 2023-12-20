@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <div className="px-4 xl:px-20">
         <About />
+        <h1 className="text-3xl font-semibold opacity-75"> More From Us </h1>
       </div>
       {/* <MoreInfoCard />
       <FeatureCard />
